@@ -6,7 +6,7 @@ services:
     ports:
      - "8080:80"
   mongo:
-    image: "mongo
+    image: "mongo"
   kafka:
     image: "kafkamanager/kafka-manager"
 
