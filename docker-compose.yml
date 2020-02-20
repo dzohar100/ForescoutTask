@@ -1,0 +1,12 @@
+version: '3'
+services:
+  web:
+    image: "docker-flask"
+    build: .
+    ports:
+     - "8080:80"
+  mongo:
+    image: "mongo
+  kafka:
+    image: "kafkamanager/kafka-manager"
+
